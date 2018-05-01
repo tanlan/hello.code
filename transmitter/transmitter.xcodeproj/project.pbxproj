@@ -5970,7 +5970,7 @@
 			path = ".build/checkouts/engine.git-3311994267206676365/Sources/Cookies";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -5981,7 +5981,6 @@
 				OBJ_27 /* Dependencies */,
 				OBJ_756 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_503 /* WebSockets */ = {
@@ -8065,7 +8064,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_756 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
