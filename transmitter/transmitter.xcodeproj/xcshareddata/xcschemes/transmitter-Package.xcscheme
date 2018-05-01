@@ -28,20 +28,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Vapor::Testing"
-               BuildableName = "Testing.framework"
-               BlueprintName = "Testing"
-               ReferencedContainer = "container:transmitter.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "transmitter::App"
                BuildableName = "App.framework"
                BlueprintName = "App"
@@ -56,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FluentProvider::FluentProvider"
-               BuildableName = "FluentProvider.framework"
-               BlueprintName = "FluentProvider"
+               BlueprintIdentifier = "LeafProvider::LeafProvider"
+               BuildableName = "LeafProvider.framework"
+               BlueprintName = "LeafProvider"
                ReferencedContainer = "container:transmitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Fluent::Fluent"
-               BuildableName = "Fluent.framework"
-               BlueprintName = "Fluent"
+               BlueprintIdentifier = "Leaf::Leaf"
+               BuildableName = "Leaf.framework"
+               BlueprintName = "Leaf"
                ReferencedContainer = "container:transmitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -84,23 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SQLite::SQLite"
-               BuildableName = "SQLite.framework"
-               BlueprintName = "SQLite"
-               ReferencedContainer = "container:transmitter.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SQLite::CSQLite"
-               BuildableName = "CSQLite.framework"
-               BlueprintName = "CSQLite"
+               BlueprintIdentifier = "Vapor::Testing"
+               BuildableName = "Testing.framework"
+               BlueprintName = "Testing"
                ReferencedContainer = "container:transmitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -1,0 +1,10 @@
+#extend("base")
+
+#export("title") { Connection state) }
+
+#export("content") {
+    <h1>Emotioner #(status).</h1>
+    <a href="http://localhost:8080/status/blink">Display Arrow</a>
+    <br/>
+    <a href="http://localhost:8080/status">Reset</a>
+}

@@ -3,7 +3,6 @@ import Foundation
 @testable import Vapor
 import XCTest
 import Testing
-import FluentProvider
 
 extension Droplet {
     static func testable() throws -> Droplet {
@@ -23,7 +22,20 @@ extension Droplet {
 
 class TestCase: XCTestCase {
     override func setUp() {
-        Node.fuzzy = [Row.self, JSON.self, Node.self]
+        Node.fuzzy = [JSON.self, Node.self]
         Testing.onFail = XCTFail
+    }
+}
+
+final class TestViewRenderer: ViewRenderer {
+    var shouldCache = false
+    /// Creates a view at the supplied path
+    /// using a Node that is made optional
+    /// by various protocol extensions.
+    func make(_ path: String, _ context: Node) throws -> View {
+        var json = JSON()
+        try json.set("path", path)
+        try json.set("context", context)
+        return try View(bytes: json.makeBytes())
     }
 }
