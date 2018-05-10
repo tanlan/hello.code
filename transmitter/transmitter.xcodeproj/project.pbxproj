@@ -31,6 +31,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B8062D9E209D84CD00EEE504 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8062D9D209D84CD00EEE504 /* File.swift */; };
+		B82523A12099993A00E84806 /* DisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825239F2099993A00E84806 /* DisplayController.swift */; };
+		B82523A22099994400E84806 /* DisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825239F2099993A00E84806 /* DisplayController.swift */; };
 		B896384C20986E0900F3AD36 /* BluetoothHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896384B20986E0900F3AD36 /* BluetoothHub.swift */; };
 		B896384D20986E0900F3AD36 /* BluetoothHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896384B20986E0900F3AD36 /* BluetoothHub.swift */; };
 		B896384F209882E800F3AD36 /* Emotioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896384E209882E800F3AD36 /* Emotioner.swift */; };
@@ -3375,6 +3378,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8062D9D209D84CD00EEE504 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B825239F2099993A00E84806 /* DisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayController.swift; sourceTree = "<group>"; };
 		B896384B20986E0900F3AD36 /* BluetoothHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothHub.swift; sourceTree = "<group>"; };
 		B896384E209882E800F3AD36 /* Emotioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotioner.swift; sourceTree = "<group>"; };
 		B896385120988F2C00F3AD36 /* SetupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupController.swift; sourceTree = "<group>"; };
@@ -4536,6 +4541,7 @@
 			children = (
 				OBJ_11 /* HelloController.swift */,
 				B896385120988F2C00F3AD36 /* SetupController.swift */,
+				B825239F2099993A00E84806 /* DisplayController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -5712,6 +5718,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				B8062D9D209D84CD00EEE504 /* File.swift */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_16 /* Tests */,
@@ -8272,6 +8279,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_711 /* Package.swift in Sources */,
+				B8062D9E209D84CD00EEE504 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8416,6 +8424,7 @@
 			buildActionMask = 0;
 			files = (
 				B896384C20986E0900F3AD36 /* BluetoothHub.swift in Sources */,
+				B82523A12099993A00E84806 /* DisplayController.swift in Sources */,
 				B896385220988F2C00F3AD36 /* SetupController.swift in Sources */,
 				OBJ_819 /* main.swift in Sources */,
 				B896384F209882E800F3AD36 /* Emotioner.swift in Sources */,
@@ -8440,6 +8449,7 @@
 				OBJ_995 /* HelloController.swift in Sources */,
 				B8963850209882E800F3AD36 /* Emotioner.swift in Sources */,
 				OBJ_996 /* Droplet+Setup.swift in Sources */,
+				B82523A22099994400E84806 /* DisplayController.swift in Sources */,
 				B896385320988F2C00F3AD36 /* SetupController.swift in Sources */,
 				OBJ_997 /* Routes.swift in Sources */,
 				B896384D20986E0900F3AD36 /* BluetoothHub.swift in Sources */,

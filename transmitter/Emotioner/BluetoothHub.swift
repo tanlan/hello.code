@@ -10,6 +10,8 @@ import CoreBluetooth
 
 class BluetoothHub: NSObject {
     
+    static let shared = BluetoothHub()
+    
     private(set) var connected: Bool = false
     
     private let centralQueue = DispatchQueue(label: "Bluetooth-stream")
@@ -41,6 +43,7 @@ class BluetoothHub: NSObject {
     func display(_ matrix:[UInt8]) {
         guard let device = peripheralDevice else { return }
         guard let characteristic = characteristic else { return }
+        guard matrix.count == 64 else { return }
         
         var displayMatrix = matrix
         for i in 0...7 {
@@ -53,7 +56,7 @@ class BluetoothHub: NSObject {
                 displayMatrix[mirrorIndex] = value
             }
         }
-        let data = NSData(bytes: &displayMatrix, length: 64)
+        let data = NSData(bytes: &displayMatrix, length:  64)
         device.writeValue(data as Data, for: characteristic, type: .withResponse)
     }
     
